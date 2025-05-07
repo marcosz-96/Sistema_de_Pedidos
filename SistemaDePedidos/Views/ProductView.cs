@@ -18,23 +18,26 @@ namespace Views
         }
         public static void ShowProduct(Product product)
         {
-            Console.WriteLine("-----------------------");
+            Console.WriteLine("-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");
             Console.WriteLine($"Name: {product.Name}");
             Console.WriteLine($"Price: {product.Price}");
-            Console.WriteLine($"Final price: {product.FinalPrice()}");
             Console.WriteLine($"Info: {product.Desc}");
-            Console.WriteLine("-----------------------");
+            Console.WriteLine("-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");
         }
 
         public static Product LoadProduct()
         {
             Product temp = new Product();
+            Console.WriteLine("________________________");
             Console.WriteLine("Product name?");
             temp.Name = Console.ReadLine();
+            Console.WriteLine("________________________");
             Console.WriteLine("Product price?");
             temp.Price = double.Parse(Console.ReadLine());
+            Console.WriteLine("________________________");
             Console.WriteLine("Product description?");
             temp.Desc = Console.ReadLine();
+            Console.WriteLine("________________________");
 
             return temp;
         }

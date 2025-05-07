@@ -17,7 +17,7 @@ namespace Controllers
 
         public Client LoadClient()
         {
-            Console.WriteLine("------LOADING CLIENT------");
+            Console.WriteLine("#-#-#-#-LOADING CLIENT-#-#-#-#");
             return ClientView.LoadClient();
         }
 

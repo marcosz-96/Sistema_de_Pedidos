@@ -24,6 +24,7 @@ namespace Models
             this.Desc = Desc;
         }
 
+        // Incrementa IVA al precio del producto
         public double FinalPrice()
         {
             return this.Price * 1.21;

@@ -17,7 +17,7 @@ namespace Controllers
 
         public Product LoadProduct()
         {
-            Console.WriteLine("------LOADING PRODUCT------");
+            Console.WriteLine("_-_-_-_-LOADING PRODUCT-_-_-_-_");
             return ProductView.LoadProduct();
         }
 
